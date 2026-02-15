@@ -14,7 +14,7 @@
 
 <style>
 
-/* Fondo blanco general */
+/* Fondo general */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -22,10 +22,11 @@ body {
   color: #222;
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar {
-  background: #f5f5f5;
-  padding: 15px 0;
+  background: #ffffff;
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .nav-container {
@@ -36,38 +37,101 @@ body {
   align-items: center;
 }
 
-.nav-links a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
 }
 
-/* Hero con fondo blanco */
+/* LINKS DEL MENU */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+
+  margin-left: 25px;
+
+  text-decoration: none;
+
+  color: #333;
+
+  font-weight: 600;
+
+  font-size: 15px;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  transition: all 0.25s ease;
+
+}
+
+/* Hover general */
+.nav-links a:hover {
+
+  background-color: #f0f4f8;
+
+  color: #0077cc;
+
+}
+
+/* LINK DESTACADO CAPACITACION */
+.nav-links a.capacitacion {
+
+  background: linear-gradient(90deg, #0077cc, #00aaff);
+
+  color: white;
+
+  font-weight: bold;
+
+  box-shadow: 0 4px 12px rgba(0,119,204,0.25);
+
+}
+
+.nav-links a.capacitacion:hover {
+
+  background: linear-gradient(90deg, #005fa3, #008ecc);
+
+  transform: translateY(-1px);
+
+}
+
+/* HERO */
 .hero {
   background: #ffffff;
   text-align: center;
   padding: 40px 20px;
 }
 
-/* Imagen del oso pequeña y suave */
-.bear-image {
-  width: 180px;
-  margin: 20px auto;
-  display: block;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-<img src="assets/oso-andino.webp" class="hero-image">
+.hero-image {
 
-/* Contenedor principal */
+  width: 320px;
+
+  max-width: 90%;
+
+  margin: 25px auto;
+
+  display: block;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 12px 30px rgba(0,0,0,0.18),
+    0 4px 10px rgba(0,0,0,0.08);
+
+}
+
+/* CONTENIDO */
 .container {
   width: 85%;
   margin: auto;
   padding: 40px 0;
 }
 
-/* Tarjetas */
+/* TARJETAS */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -89,24 +153,21 @@ body {
   font-weight: bold;
 }
 
-/* Sección SEO */
+/* SEO CONTENT */
 .seo-content h2 {
   margin-top: 40px;
-  color: #111;
 }
 
 .seo-content p {
   line-height: 1.7;
-  margin-top: 10px;
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
   background: #f5f5f5;
   padding: 20px;
   text-align: center;
   margin-top: 40px;
-  font-size: 14px;
 }
 
 </style>
@@ -116,23 +177,36 @@ body {
 
 <nav class="navbar">
   <div class="nav-container">
-    <div class="logo"><strong>Voto 2026 Colombia</strong></div>
+
+    <div class="logo">Voto 2026 Colombia</div>
+
     <div class="nav-links">
       <a href="index.html">Inicio</a>
-      <a href="senado.html">Senado 2026</a>
-      <a href="camara.html">Cámara 2026</a>
-      <a href="capacitacion.html">Capacitación</a>
+      <a href="senado.html">Senado</a>
+      <a href="camara.html">Cámara</a>
+
+      <!-- LINK DESTACADO -->
+      <a href="capacitacion.html" class="capacitacion">
+        Capacitación
+      </a>
+
     </div>
+
   </div>
 </nav>
 
 <header class="hero">
+
   <h1>Voto 2026 en Colombia: Centro de Información sobre la Votación</h1>
 
-  <!-- Imagen del oso -->
-  <img src="oso.webp" alt="Votación 2026 en Colombia - Aprendamos a Votar" class="bear-image">
+  <img src="assets/oso-andino.webp"
+       alt="Oso andino símbolo de transparencia electoral en Colombia"
+       class="hero-image">
 
-  <p>Aprende cómo funciona la votación 2026 para Senado y Cámara y participa de manera informada.</p>
+  <p>
+    Aprende cómo funciona la votación 2026 para Senado y Cámara y participa de manera informada.
+  </p>
+
 </header>
 
 <main class="container">
@@ -156,40 +230,6 @@ body {
 
 </section>
 
-<section class="seo-content">
-
-<h2>¿Qué es el voto 2026 en Colombia?</h2>
-<p>
-El voto 2026 en Colombia corresponde a la jornada electoral en la que los ciudadanos elegirán el Senado de la República y la Cámara de Representantes. La votación 2026 será una de las decisiones democráticas más importantes del país, ya que definirá la composición del Congreso para el periodo 2026–2030.
-</p>
-
-<h2>¿Qué se vota en las elecciones legislativas 2026?</h2>
-<p>
-En las elecciones 2026 Colombia se eligen los integrantes del Congreso. Cada votante recibe tarjetones oficiales para Senado y Cámara. Es fundamental marcar correctamente una sola opción válida para que el voto sea contabilizado.
-</p>
-
-<h2>Cómo votar correctamente en la votación 2026</h2>
-<p>
-Para participar en el voto 2026, el ciudadano debe presentar su cédula original, recibir los tarjetones, ingresar al cubículo y marcar una sola opción. Un error común es marcar más de una lista o hacer anotaciones adicionales, lo que puede generar voto nulo.
-</p>
-
-<h2>Cómo se cuentan los votos en Colombia</h2>
-<p>
-Al finalizar la jornada electoral, los jurados realizan el conteo de votos en cada mesa. Posteriormente diligencian el formulario correspondiente que permite el preconteo informativo y el inicio del escrutinio oficial.
-</p>
-
-<h2>Preparación antes del 7 de marzo</h2>
-<p>
-Antes de la jornada electoral es recomendable consultar el puesto de votación, verificar la mesa asignada y conocer los horarios oficiales. Estar informado facilita una participación responsable y transparente en las elecciones 2026.
-</p>
-
-<h2>Importancia de la participación ciudadana</h2>
-<p>
-La votación 2026 en Colombia representa una oportunidad para fortalecer la democracia. Participar de manera informada permite que el proceso electoral refleje la voluntad ciudadana y garantice legitimidad institucional.
-</p>
-
-</section>
-
 </main>
 
 <footer class="footer">
@@ -198,5 +238,4 @@ Sitio informativo y educativo sobre el proceso electoral colombiano 2026.
 
 </body>
 </html>
-
 
