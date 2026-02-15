@@ -1,20 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Informaci�n Oficial � C�mara</title>
+
+<title>
+Candidatos a la Cámara de Representantes Colombia 2026 | Partidos y departamentos
+</title>
+
+<meta name="description" content="
+Consulta los candidatos a la Cámara de Representantes en Colombia 2026 por partido político y departamento. Información educativa electoral.
+">
+
+<meta name="keywords" content="
+candidatos Cámara Colombia 2026, Cámara de Representantes Colombia candidatos, elecciones Cámara Colombia, partidos políticos Cámara 2026
+">
+
+<meta name="robots" content="index, follow">
+
 <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main class="container">
-<h1>Informaci�n Oficial � C�mara</h1>
-<ul class="links">
-<li><a href="https://www.registraduria.gov.co/" target="_blank">Registraduria Nacional</a></li>
-<li><a href="https://www.cne.gov.co/" target="_blank">Consejo Nacional Electoral</a></li>
-<li><a href="https://centrodemocratico.com/" target="_blank">Centro Democrotico � Sitio oficial</a></li>
-<li><a href="https://salvacionnacional.com/" target="_blank">Salvacion Nacional � Sitio oficial</a></li>
-</ul>
-</main>
-</body>
-</html>
+
+<style>
+
+/* CONTENEDOR */
+
+.container {
+
+  width: 85%;
+  margin: auto;
+  padding-top: 30px;
+
+}
+
+/* TITULO */
+
+h1 {
+
+  margin-bottom: 10px;
+
+}
+
+/* DESCRIPCION */
+
+.descripcion {
+
+  margin-bottom: 30px;
+
+  line-height: 1.6;
+
+}
+
+/* GRID */
+
+.partidos-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 20px;
+
+}
+
+/* TARJETAS */
+
+.partido-card {
+
+  background: #fafafa;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+
+  transition: transform 0.2s ease;
+
+}
+
+.partido-card:hover {
+
+  transform: translateY(-4px);
+
+}
+
+/* LINK */
+
+.partido-card a {
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  color: #0077cc;
+
+}
+
+.partido-card a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* INFO EDUCATIVA */
+
+.info {
+
+  margin-top: 40px;
+
+  background: #f8f9fa;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+}
+
+.volver {
+
+  margin-top: 30px;
+
+  display: inline-blo
+

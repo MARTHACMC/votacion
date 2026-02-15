@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>
-Partidos políticos Colombia 2026 | Candidatos Senado y Cámara
+Partidos políticos Colombia 2026 | Candidatos al Senado y Cámara
 </title>
 
 <meta name="description" content="
-Consulta los partidos políticos en Colombia y sus candidatos al Senado y Cámara en las elecciones 2026. Información educativa electoral.
+Consulta los partidos políticos de Colombia y sus candidatos al Senado y Cámara en las elecciones 2026. Información educativa electoral actualizada.
 ">
 
 <meta name="keywords" content="
-partidos políticos Colombia, candidatos Senado 2026, candidatos Cámara 2026, Centro Democrático, Partido Liberal, Conservador, Partido de la U
+partidos políticos Colombia, candidatos Senado 2026, candidatos Cámara 2026, Centro Democrático, Partido Liberal, Partido Conservador, Partido de la U, MIRA, Cambio Radical, Salvación Nacional
 ">
 
 <meta name="robots" content="index, follow">
@@ -23,46 +23,105 @@ partidos políticos Colombia, candidatos Senado 2026, candidatos Cámara 2026, C
 
 <style>
 
+/* CONTENEDOR */
+
 .container {
+
   width: 85%;
   margin: auto;
-}
-
-.partido {
-
-  background: #fafafa;
-
-  padding: 25px;
-
-  margin-top: 20px;
-
-  border-radius: 10px;
+  padding-top: 30px;
 
 }
 
-.partido h2 {
+/* TITULO */
+
+h1 {
 
   margin-bottom: 10px;
 
 }
 
-.candidato {
+/* DESCRIPCION */
 
-  padding: 10px;
+.descripcion {
 
-  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+
+  line-height: 1.6;
+
+}
+
+/* TARJETAS PARTIDOS */
+
+.partidos-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+  gap: 20px;
 
 }
 
-.candidato:last-child {
+/* TARJETA */
 
-  border-bottom: none;
+.partido-card {
+
+  background: #fafafa;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+
+  transition: transform 0.2s ease;
 
 }
+
+.partido-card:hover {
+
+  transform: translateY(-4px);
+
+}
+
+/* NOMBRE PARTIDO */
+
+.partido-card h2 {
+
+  margin-top: 0;
+
+}
+
+/* LINK */
+
+.partido-card a {
+
+  display: inline-block;
+
+  margin-top: 10px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  color: #0077cc;
+
+}
+
+/* LINK HOVER */
+
+.partido-card a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* VOLVER */
 
 .volver {
 
-  margin-top: 30px;
+  margin-top: 40px;
 
   display: inline-block;
 
@@ -73,6 +132,8 @@ partidos políticos Colombia, candidatos Senado 2026, candidatos Cámara 2026, C
 </head>
 
 <body>
+
+<!-- NAVBAR -->
 
 <nav class="navbar">
 
@@ -92,7 +153,9 @@ Voto 2026 Colombia
 
 <a href="partidos.html">Partidos</a>
 
-<a href="capacitacion.html" class="capacitacion">Capacitación</a>
+<a href="capacitacion.html" class="capacitacion">
+Capacitación
+</a>
 
 </div>
 
@@ -100,143 +163,162 @@ Voto 2026 Colombia
 
 </nav>
 
+<!-- CONTENIDO PRINCIPAL -->
+
 <main class="container">
 
 <h1>
-Partidos políticos y candidatos al Senado y Cámara 2026
+Partidos políticos en las elecciones Colombia 2026
 </h1>
 
-<p>
+<p class="descripcion">
 
-Consulta información educativa sobre los partidos políticos en Colombia y sus candidatos al Senado y Cámara en las elecciones 2026.
+En esta sección puedes consultar los partidos políticos que participan en las elecciones al Senado y Cámara de Representantes en Colombia 2026. Cada partido presenta candidatos que buscan representar a los ciudadanos en el Congreso.
+
+Selecciona un partido para ver la lista de candidatos al Senado y Cámara.
 
 </p>
 
+<!-- GRID PARTIDOS -->
+
+<section class="partidos-grid">
+
+
 <!-- CENTRO DEMOCRATICO -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Centro Democrático
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos del Centro Democrático al Senado y Cámara.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
-
-</div>
-
-<div class="candidato">
-
-<strong>Candidato Cámara:</strong>
-Nombre del candidato
+<a href="centro-democratico.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
 
 <!-- PARTIDO LIBERAL -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Partido Liberal Colombiano
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos del Partido Liberal al Senado y Cámara.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
+<a href="partido-liberal.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
 
 <!-- PARTIDO CONSERVADOR -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Partido Conservador Colombiano
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos del Partido Conservador.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
+<a href="partido-conservador.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
 
 <!-- PARTIDO DE LA U -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Partido de la U
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos del Partido de la U.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
+<a href="partido-u.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
 
 <!-- MIRA -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Partido MIRA
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos del Partido MIRA.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
+<a href="mira.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
 
 <!-- CAMBIO RADICAL -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Cambio Radical
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos de Cambio Radical.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
+<a href="cambio-radical.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
 
 <!-- SALVACION NACIONAL -->
 
-<div class="partido">
+<div class="partido-card">
 
 <h2>
 Salvación Nacional
 </h2>
 
-<div class="candidato">
+<p>
+Consulta los candidatos del partido Salvación Nacional.
+</p>
 
-<strong>Candidato Senado:</strong>
-Nombre del candidato
+<a href="salvacion-nacional.html">
+Ver candidatos →
+</a>
 
 </div>
 
-</div>
+
+</section>
+
 
 <a href="index.html" class="volver">
 ← Volver al inicio
@@ -244,12 +326,14 @@ Nombre del candidato
 
 </main>
 
+
 <footer class="footer">
 
-Portal educativo electoral Colombia 2026
+Portal educativo sobre candidatos y partidos políticos Colombia 2026.
 
 </footer>
 
 </body>
 
 </html>
+
