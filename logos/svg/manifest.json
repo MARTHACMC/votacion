@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Partido Liberal Colombiano",
+    "svg": "svg/partido_liberal_colombiano.svg",
+    "png512": "png/512/partido_liberal_colombiano.png",
+    "png256": "png/256/partido_liberal_colombiano.png"
+  },
+  {
+    "name": "Partido Conservador Colombiano",
+    "svg": "svg/partido_conservador_colombiano.svg",
+    "png512": "png/512/partido_conservador_colombiano.png",
+    "png256": "png/256/partido_conservador_colombiano.png"
+  },
+  {
+    "name": "Centro Democrático",
+    "svg": "svg/centro_democratico.svg",
+    "png512": "png/512/centro_democratico.png",
+    "png256": "png/256/centro_democratico.png"
+  },
+  {
+    "name": "Cambio Radical",
+    "svg": "svg/cambio_radical.svg",
+    "png512": "png/512/cambio_radical.png",
+    "png256": "png/256/cambio_radical.png"
+  },
+  {
+    "name": "Alianza Verde",
+    "svg": "svg/alianza_verde.svg",
+    "png512": "png/512/alianza_verde.png",
+    "png256": "png/256/alianza_verde.png"
+  },
+  {
+    "name": "Pacto Histórico",
+    "svg": "svg/pacto_historico.svg",
+    "png512": "png/512/pacto_historico.png",
+    "png256": "png/256/pacto_historico.png"
+  },
+  {
+    "name": "Partido Comunes",
+    "svg": "svg/partido_comunes.svg",
+    "png512": "png/512/partido_comunes.png",
+    "png256": "png/256/partido_comunes.png"
+  },
+  {
+    "name": "Movimiento MIRA",
+    "svg": "svg/movimiento_mira.svg",
+    "png512": "png/512/movimiento_mira.png",
+    "png256": "png/256/movimiento_mira.png"
+  },
+  {
+    "name": "Colombia Justa Libres",
+    "svg": "svg/colombia_justa_libres.svg",
+    "png512": "png/512/colombia_justa_libres.png",
+    "png256": "png/256/colombia_justa_libres.png"
+  },
+  {
+    "name": "Nuevo Liberalismo",
+    "svg": "svg/nuevo_liberalismo.svg",
+    "png512": "png/512/nuevo_liberalismo.png",
+    "png256": "png/256/nuevo_liberalismo.png"
+  },
+  {
+    "name": "Salvación Nacional",
+    "svg": "svg/salvacion_nacional.svg",
+    "png512": "png/512/salvacion_nacional.png",
+    "png256": "png/256/salvacion_nacional.png"
+  },
+  {
+    "name": "Dignidad y Compromiso",
+    "svg": "svg/dignidad_y_compromiso.svg",
+    "png512": "png/512/dignidad_y_compromiso.png",
+    "png256": "png/256/dignidad_y_compromiso.png"
+  },
+  {
+    "name": "Alianza Social Independiente ASI",
+    "svg": "svg/alianza_social_independiente_asi.svg",
+    "png512": "png/512/alianza_social_independiente_asi.png",
+    "png256": "png/256/alianza_social_independiente_asi.png"
+  },
+  {
+    "name": "Autoridades Indígenas de Colombia AICO",
+    "svg": "svg/autoridades_indigenas_de_colombia_aico.svg",
+    "png512": "png/512/autoridades_indigenas_de_colombia_aico.png",
+    "png256": "png/256/autoridades_indigenas_de_colombia_aico.png"
+  },
+  {
+    "name": "Movimiento Alternativo Indígena y Social MAIS",
+    "svg": "svg/movimiento_alternativo_indigena_y_social_mais.svg",
+    "png512": "png/512/movimiento_alternativo_indigena_y_social_mais.png",
+    "png256": "png/256/movimiento_alternativo_indigena_y_social_mais.png"
+  },
+  {
+    "name": "Partido ADA",
+    "svg": "svg/partido_ada.svg",
+    "png512": "png/512/partido_ada.png",
+    "png256": "png/256/partido_ada.png"
+  }
+]
