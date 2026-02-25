@@ -4,82 +4,119 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cómo votar en Colombia | Senado, Cámara y Elecciones Presidenciales</title>
+<title>Cómo votar en Colombia 2026 | Guía Oficial Ciudadana</title>
 
-<meta name="description" content="Guía educativa sobre cómo votar en Colombia. Aprende qué es el Senado, la Cámara de Representantes, circunscripciones especiales y quién controla el proceso electoral.">
+<meta name="description" content="Guía educativa e institucional sobre cómo votar en Colombia. Aprende qué es el Senado, la Cámara de Representantes, las circunscripciones especiales y quién controla el proceso electoral colombiano.">
+
+<meta name="keywords" content="cómo votar en Colombia, elecciones Colombia 2026, Senado Colombia, Cámara de Representantes, circunscripciones especiales, Registraduría, CNE">
+
+<meta name="author" content="Aprendamos a Votar">
+
+<meta property="og:title" content="Guía para votar en Colombia 2026">
+<meta property="og:description" content="Información clara y educativa sobre el proceso electoral colombiano.">
+<meta property="og:type" content="website">
+
+<link rel="canonical" href="https://aprendamosavotar.org/">
 
 <link rel="stylesheet" href="style.css">
 
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "EducationalWebPage",
+ "name": "Guía para votar en Colombia 2026",
+ "description": "Información educativa sobre el sistema electoral colombiano, Senado, Cámara y elecciones presidenciales.",
+ "inLanguage": "es-CO",
+ "publisher": {
+   "@type": "Organization",
+   "name": "Aprendamos a Votar"
+ }
+}
+</script>
+
 <style>
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  line-height: 1.6;
-  background: #f8f9fa;
-  color: #222;
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:#f4f6f8;
+  color:#1b1b1b;
 }
 
 header {
-  background: #0b3d2e;
-  color: white;
-  padding: 20px;
-  text-align: center;
+  background:#0b3d2e;
+  color:white;
+  padding:30px;
+  text-align:center;
 }
 
 nav {
-  background: #145a32;
-  padding: 10px;
-  text-align: center;
+  background:#114c38;
+  text-align:center;
+  padding:12px;
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
+  color:white;
+  margin:0 20px;
+  text-decoration:none;
+  font-weight:600;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration:underline;
 }
 
 .hero {
-  text-align: center;
-  padding: 40px 20px;
+  text-align:center;
+  padding:40px 20px;
+  background:white;
 }
 
 .hero img {
-  max-width: 250px;
+  max-width:260px;
+  cursor:pointer;
+  transition:transform 0.3s ease;
+}
+
+.hero img:hover {
+  transform:scale(1.05);
+}
+
+.bear-message {
+  margin-top:15px;
+  font-weight:600;
+  color:#0b3d2e;
 }
 
 section {
-  max-width: 900px;
-  margin: auto;
-  padding: 30px 20px;
-  background: white;
-  margin-bottom: 20px;
-  border-radius: 6px;
+  max-width:1000px;
+  margin:30px auto;
+  padding:30px;
+  background:white;
+  border-radius:8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05);
 }
 
-h1, h2, h3 {
-  color: #0b3d2e;
+h1,h2,h3 {
+  color:#0b3d2e;
 }
 
 footer {
-  background: #0b3d2e;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
+  background:#0b3d2e;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
 }
 </style>
 
 </head>
+
 <body>
 
 <header>
-  <h1>Aprendamos a Votar en Colombia</h1>
-  <p>Guía educativa sobre el proceso electoral colombiano</p>
+  <h1>Guía Institucional para Votar en Colombia</h1>
+  <p>Educación ciudadana y fortalecimiento democrático</p>
 </header>
 
 <nav>
@@ -89,69 +126,81 @@ footer {
 </nav>
 
 <div class="hero">
-  <img src="assets/oso-andino.webp" alt="Oso Andino promoviendo la participación ciudadana">
+  <img src="assets/oso-andino.webp" alt="Oso Andino promoviendo la participación democrática" onclick="bearTalk()">
+  <div class="bear-message" id="bearMessage">
+    Haz clic en el oso para recibir un mensaje ciudadano 🐻
+  </div>
 </div>
 
 <section>
-  <h2>¿Qué es un partido político?</h2>
-  <p>
-  Un partido político es una organización de ciudadanos que comparten una visión ideológica y buscan acceder al poder mediante elecciones democráticas. En Colombia, los partidos presentan candidatos al Senado, Cámara, Presidencia y otros cargos públicos.
-  </p>
+<h2>¿Qué es un partido político?</h2>
+<p>
+Un partido político es una organización de ciudadanos que comparten principios ideológicos y participan en elecciones para acceder a cargos públicos. Su función es representar intereses sociales dentro del sistema democrático.
+</p>
 </section>
 
 <section>
-  <h2>¿Qué es el Senado?</h2>
-  <p>
-  El Senado de la República es la cámara alta del Congreso. Representa a todo el país y está compuesto por 108 senadores elegidos mediante circunscripción nacional.
-  </p>
+<h2>¿Qué es el Senado de la República?</h2>
+<p>
+Es la cámara alta del Congreso de Colombia. Representa a todo el territorio nacional mediante circunscripción nacional y tiene funciones legislativas y de control político.
+</p>
 
-  <h2>¿Qué es la Cámara de Representantes?</h2>
-  <p>
-  Es la cámara baja del Congreso. Sus miembros representan a los departamentos y a circunscripciones especiales.
-  </p>
+<h2>¿Qué es la Cámara de Representantes?</h2>
+<p>
+Es la cámara baja del Congreso. Representa a los departamentos y a circunscripciones especiales.
+</p>
 </section>
 
 <section>
-  <h2>¿Qué son las circunscripciones especiales?</h2>
-  <p>
-  Son mecanismos creados para garantizar representación política a comunidades históricamente subrepresentadas como comunidades indígenas, afrodescendientes y colombianos en el exterior.
-  </p>
+<h2>¿Qué son las circunscripciones especiales?</h2>
+<p>
+Son mecanismos constitucionales que garantizan representación política a comunidades indígenas, afrodescendientes, víctimas del conflicto y colombianos en el exterior.
+</p>
 
-  <h3>¿Quién vota en ellas?</h3>
-  <p>
-  Los ciudadanos que pertenecen a esas comunidades, según el registro electoral, pueden votar en dichas circunscripciones.
-  </p>
+<h3>¿Quién vota en ellas?</h3>
+<p>
+Ciudadanos pertenecientes a esas comunidades, según el registro electoral autorizado.
+</p>
 </section>
 
 <section>
-  <h2>¿Quién controla el proceso electoral?</h2>
+<h2>¿Quién controla el proceso electoral?</h2>
 
-  <h3>Registraduría Nacional del Estado Civil</h3>
-  <p>
-  Es la entidad encargada de organizar las elecciones, administrar el censo electoral y garantizar la logística del proceso.
-  </p>
-  <p>
-  Sitio oficial:
-  <a href="https://www.registraduria.gov.co" target="_blank">
-  www.registraduria.gov.co
-  </a>
-  </p>
+<h3>Registraduría Nacional del Estado Civil</h3>
+<p>
+Organiza las elecciones, administra el censo electoral y garantiza la logística del proceso.
+</p>
+<p>
+<a href="https://www.registraduria.gov.co" target="_blank">Sitio oficial Registraduría</a>
+</p>
 
-  <h3>Consejo Nacional Electoral (CNE)</h3>
-  <p>
-  Es la máxima autoridad electoral encargada de vigilar y controlar la actividad de los partidos y campañas políticas.
-  </p>
-  <p>
-  Sitio oficial:
-  <a href="https://www.cne.gov.co" target="_blank">
-  www.cne.gov.co
-  </a>
-  </p>
+<h3>Consejo Nacional Electoral (CNE)</h3>
+<p>
+Máxima autoridad de vigilancia y control de partidos y campañas políticas.
+</p>
+<p>
+<a href="https://www.cne.gov.co" target="_blank">Sitio oficial CNE</a>
+</p>
+
 </section>
 
 <footer>
-  <p>Proyecto educativo sobre participación democrática en Colombia</p>
+<p>Proyecto educativo independiente para la promoción de la participación democrática en Colombia.</p>
 </footer>
+
+<script>
+function bearTalk() {
+  const messages = [
+    "Tu voto es tu voz en la democracia.",
+    "Infórmate antes de votar.",
+    "La participación fortalece las instituciones.",
+    "Revisa tu puesto de votación con anticipación.",
+    "La democracia se construye con ciudadanos informados."
+  ];
+  const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+  document.getElementById("bearMessage").innerText = randomMessage;
+}
+</script>
 
 </body>
 </html>
